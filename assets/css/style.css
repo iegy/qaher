@@ -178,6 +178,7 @@ html[dir="rtl"] .main-nav a::after{transform-origin:right;}
 html[dir="rtl"] .main-nav a{font-size:.86rem;}
 
 .header-actions{display:flex;align-items:center;gap:12px;flex-shrink:0;}
+.lang-btn{
   font-family:var(--font-mono);
   font-size:.72rem;letter-spacing:.08em;
   border:1px solid rgba(16,27,51,.25);
@@ -570,8 +571,8 @@ html[dir="rtl"] .client-card h5{text-transform:none;font-weight:700;}
 }
 
 /* =============================== Contact =============================== */
-.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;}
-@media(max-width:940px){.contact-grid{grid-template-columns:1fr;gap:40px;}}
+.contact-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;}
+@media(max-width:940px){.contact-grid{grid-template-columns:minmax(0,1fr);gap:40px;}}
 .contact-info-card{
   background:var(--white);border-radius:var(--radius-lg);padding:38px 32px;color:var(--ink-700);
   border:1px solid var(--line);box-shadow:var(--shadow-sm);
@@ -597,12 +598,13 @@ html[dir="rtl"] .contact-info-card h3{text-transform:none;font-weight:700;}
 .wa-btn:hover{transform:translateY(-2px);}
 
 .contact-form{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:36px;}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
-@media(max-width:560px){.form-grid{grid-template-columns:1fr;}}
+.form-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;}
+@media(max-width:560px){.form-grid{grid-template-columns:minmax(0,1fr);}}
 .field{display:flex;flex-direction:column;gap:7px;margin-bottom:18px;}
 .field.full{grid-column:1 / -1;}
 .field label{font-size:.78rem;font-weight:700;color:var(--navy-900);text-transform:uppercase;letter-spacing:.04em;}
 .field input,.field select,.field textarea{
+  width:100%;min-width:0;
   border:1.5px solid var(--line);border-radius:var(--radius-sm);
   padding:13px 15px;font-size:.94rem;color:var(--ink-900);background:var(--paper);
   transition:border-color .25s var(--ease);
