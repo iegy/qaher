@@ -1,0 +1,172 @@
+/* Self-hosted fonts (Oswald, Source Sans 3, JetBrains Mono, Tajawal) */
+
+/* oswald-latin-400-normal */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/oswald-latin-400-normal.woff2') format('woff2');
+}
+
+/* oswald-latin-500-normal */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/oswald-latin-500-normal.woff2') format('woff2');
+}
+
+/* oswald-latin-600-normal */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('../fonts/oswald-latin-600-normal.woff2') format('woff2');
+}
+
+/* oswald-latin-700-normal */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/oswald-latin-700-normal.woff2') format('woff2');
+}
+
+/* source-sans-3-latin-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/source-sans-3-latin-400-normal.woff2') format('woff2');
+}
+
+/* source-sans-3-latin-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/source-sans-3-latin-500-normal.woff2') format('woff2');
+}
+
+/* source-sans-3-latin-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('../fonts/source-sans-3-latin-600-normal.woff2') format('woff2');
+}
+
+/* source-sans-3-latin-700-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/source-sans-3-latin-700-normal.woff2') format('woff2');
+}
+
+/* jetbrains-mono-latin-500-normal */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/jetbrains-mono-latin-500-normal.woff2') format('woff2');
+}
+
+/* jetbrains-mono-latin-600-normal */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('../fonts/jetbrains-mono-latin-600-normal.woff2') format('woff2');
+}
+
+/* jetbrains-mono-latin-700-normal */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/jetbrains-mono-latin-700-normal.woff2') format('woff2');
+}
+
+/* tajawal-arabic-400-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/tajawal-arabic-400-normal.woff2') format('woff2');
+}
+
+/* tajawal-latin-400-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/tajawal-latin-400-normal.woff2') format('woff2');
+}
+
+/* tajawal-arabic-500-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/tajawal-arabic-500-normal.woff2') format('woff2');
+}
+
+/* tajawal-latin-500-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/tajawal-latin-500-normal.woff2') format('woff2');
+}
+
+/* tajawal-arabic-700-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/tajawal-arabic-700-normal.woff2') format('woff2');
+}
+
+/* tajawal-latin-700-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/tajawal-latin-700-normal.woff2') format('woff2');
+}
+
+/* tajawal-arabic-800-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url('../fonts/tajawal-arabic-800-normal.woff2') format('woff2');
+}
+
+/* tajawal-latin-800-normal */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url('../fonts/tajawal-latin-800-normal.woff2') format('woff2');
+}
